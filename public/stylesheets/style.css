@@ -2,6 +2,10 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+#divname{
+  clear: both;
+  /* Centering <div> element*/
+}
 
 a {
   color: #00B7FF;
