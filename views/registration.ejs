@@ -1,82 +1,94 @@
 <!DOCTYPE HTML>
 <html>
 <% include header %>
+<link href="stylesheets/registration.css" rel="stylesheet">
 <head>
     <title>Monroe Veterans</title>
 </head>
+<center><img src="images/vet2.jpg"></center>
 
-<body bgcolor="#819FF7">
-    <div style="text-align:center">
-        <img src="images/vet4
-    <table class="menu" style="border-style:none">
-        <tr>
-            <td class="menuicon"><a href="home.html">Home</a></td>
-            <td class="menupipe" <|</td>
-
-                <td class="menuicon"><a href="registration.html">Registration</a></td>
-                <td class="menupipe" <|</td>
-
-                    <td class="menuicon"><a href="about.html">About</a></td>
+<body class="bodycolor">
+    <div class="center-text">
         </tr>
     </table>
 
     <h3> Please complete the form if you would like to know more about the veterans club at Monroe College </h3>
-    <form action="mailto:dreamweekend@gmail.com" method="post" enctype="text/plain">
+    <form action="#" enctype="text/plain">
 
         First Name:
         <br>
-        <input type="text" name="fname" required placeholder="Enter first name here" size="15">
+        <input type="text" name="fname" required placeholder="Enter first name here" size="80">
         </br>
 
         Last Name:
         <br>
-        <input type="text" name="lname" required placeholder="Enter last name here" size="15">
+        <input type="text" name="lname" required placeholder="Enter last name here" size="80">
         </br>
 
         Email Address:
         <br>
-        <input type="email" name="e-mail" required placeholder="Enter your email email address" size="60">
+        <input type="email" name="e-mail" required placeholder="Enter your email address" size="80">
         </br>
 
 
-        <hr style="height:5px; background-color:#F781F3; width:100%" />
-
+        <hr class="blue-line">
         <h3> Please complete the form below if you would like to participate in the student employment program  </h3> Name of School:
         <br>
-        <input type="text" name="sname" required placeholder="Enter school name here" size="150">
+        <input type="text" name="sname"  placeholder="Enter school name here" size="80">
         </br>
 
         Anticipated Graduation Date:
         <br>
-        <input type="text" name="gdate" required placeholder="xx/xx/xxxx" size="10">
+        <input type="text" name="gdate" placeholder="xx/xx/xxxx" size="80">
         </br>
 
         Mailing Address:
         <br>
-        <input type="Mailing" name="mail" required placeholder="Enter the school's address" size="300">
+        <input type="Mailing" name="mail" placeholder="Enter the school's address" size="80">
         </br>
 
         Telephone Number:
         <br>
-        <input type="number" name="number" required placeholder="(xxx)xxx-xxx" size="16">
+       <input type='tel'  placeholder="111-1111" title='Phone Number (Format: 999-9999)'>
         </br>
 
         Email Address:
         <br>
-        <input type="email" name="e-mail" required placeholder="Enter your email email address" size="60">
+        <input type="email" name="e-mail"  placeholder="Enter your email email address" size="80">
         </br>
 
         Date:
         <br>
-        <input type="date" name="date" required placeholder="xx/xx/xxxx" size="10">
+        <input type="date" name="date"  placeholder="xx/xx/xxxx" size="80">
         </br>
-        <input type="submit" value="Submit">
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
         <input type="reset" value="Reset">
     </form>
+ 
+ 
+   <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
-    <hr style="height:10px; background-color:#F781F3; width:100%" />
-    <footer style="text-align: center; font-style:italic">
-        &copy 2016, Monroe Veterans
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">We appreciate your submission!</h4>
+      </div>
+      <div class="modal-body">
+        <p>We have recieve your email. We'll get right back to you. </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+ 
+    
 
 
 </body>

@@ -1,0 +1,14 @@
+.gmap {
+    overflow: hidden;
+    height: 440px;
+    width: 100%;
+}
+
+<style type="cursive">
+#cf {
+position: center;
+height: 181px;
+width: 450px;
+margin: 0 auto;
+color: #333;
+}

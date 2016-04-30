@@ -1,0 +1,13 @@
+   .blue-line {
+       height: 5px;
+       background-color: blue;
+       width: 100%;
+   }
+   
+   .bodycolor {
+       background-color="#819FF7";
+   }
+   
+   .center-text {
+       text-align: center;
+   }

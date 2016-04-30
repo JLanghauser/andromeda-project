@@ -1,0 +1,21 @@
+
+
+#myCarousel img {
+  margin-left: 500px;
+  width: auto;
+  height: 300px;
+  max-height: 300px;
+}
+#myCarousel .large-img {
+  margin-left: 280px;
+  width: auto;
+  height: 300px;
+  max-height: 300px;
+}
+#myCarousel .large2-img {
+  margin-left: 350px;
+  width: auto;
+  height: 300px;
+  max-height: 300px;
+}
+
